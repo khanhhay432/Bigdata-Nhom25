@@ -1,0 +1,28 @@
+# Data files
+BigData/data/
+*.csv
+*.parquet
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Spark/Hadoop processing
+BigData/tmp/
+BigData/checkpoint/
+BigData/output/
+BigData/models/
+spark-warehouse/
+*.jar
+
+# Logs
+*.log
+logs/
+
+# IDE/System
+.idea/
+.vscode/
+.DS_Store
+*.swp
